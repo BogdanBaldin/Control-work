@@ -15,14 +15,13 @@ int pos = 0;
 
 for (int j = 0; j < size; j ++)
 {
- if
- } 
- (arrayStrings[j].Длина <= len)
+    
+ if (arrayStrings[j].Длина <= len)
     {
  arrayFinal[pos] = arrayStrings[j];
  pos++;
     }
-
+}
 
 Console.WriteLine();
 printArray(arrayFinal);
