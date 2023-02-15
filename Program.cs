@@ -1,10 +1,10 @@
-﻿Console.Write("Сколько элементов Вы хотите ввести? ");
+﻿Console.WriteLine("Сколько элементов Вы хотите ввести? ");
 size int = Convert.ToInt32(Console.ReadLine());
 
 string[] arrayStrings = new string[size];
 for (int i = 0; i < size; i++)
 {
- Console.WriteLine($"Введите {i+1}-й элемент: ");
+ Console.WriteLine($"Введите элемент: ");
  string element = Convert.ToString(Console.ReadLine());
  arrayStrings[i] = element;
 }
